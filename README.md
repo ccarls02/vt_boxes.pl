@@ -24,15 +24,16 @@ This is probably crappy code. This was part of a project for me to get back into
  which auto sizes the boxes according to the longest line and most lines per the 
  data array
 
+List of Subs:
 
 ```
-##setflag()<Br>
+setflag()<Br>
 -input: string (flag severity)
 	CRITICAL, MAJOR, OK, INFO, OTHER
 -output: returns corresponding terminal color code set in GLOBALs
 
 
-##box()
+box()
     -input: 
         1) data array reference 
         2) box width (# of characters)
@@ -47,17 +48,17 @@ Terminal output is about 2x width to 1x height, so
 $VMARGIN (vertical margin) is set to 1/2 $MARGIN
 ```
 ```
-##getsettings ()
+getsettings ()
 -input: NONE
 -output: array of (rows,cols) of current terminal display from "stty -a"
 ```
 ```
-##print_H_ruler()  (enabled with GLOBAL $PRINT_RULERS)
+print_H_ruler()  (enabled with GLOBAL $PRINT_RULERS)
 -input: NONE
 -output: prints a (horizontal) ruler to the terminal, numbering the columns
 ```
 ```
-##print_V_ruler()
+print_V_ruler()
 -input: NONE
 -output: returns a string using 4 characters, a (vertical) ruler with the output, numbering row lines
 uses $V_ruler_counter between calls to track current line
