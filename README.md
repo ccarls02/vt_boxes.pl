@@ -1,5 +1,5 @@
 # vt_boxes.pl
-Draw boxes around data in linux terminal
+Draw boxes around data in a vt100/linux terminal
 
 libraries have their place, but sometimes you just want to code and go.
 
