@@ -46,6 +46,7 @@ box()
 	$MARGIN is the spacing (# of chars) between boxes. 
 	Terminal output is about 2x width to 1x height, so 
 	$VMARGIN (vertical margin) is set to 1/2 $MARGIN
+	
     -output: prints display (boxes with data) to terminal	
 ```
 ```
