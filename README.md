@@ -34,7 +34,7 @@ setflag()
 
 
 box()
-    -input: 
+    -input:  (NOTE: 2, 3, & 4 are IGNORED if $AUTO is set)
         1) data array reference 
         2) box width (# of characters)
         3) box height (# of lines)
