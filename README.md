@@ -27,7 +27,7 @@ This is probably crappy code. This was part of a project for me to get back into
 List of Subs:
 
 ```
-setflag()<Br>
+setflag()
 -input: string (flag severity)
 	CRITICAL, MAJOR, OK, INFO, OTHER
 -output: returns corresponding terminal color code set in GLOBALs
