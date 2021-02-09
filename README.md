@@ -3,8 +3,8 @@ Draw boxes around data in linux terminal
 
 libraries have their place, but sometimes you just want to code and go.
 
-this file is a set of functions to draw boxes around data (and color them) in a linux/vt100 type terminal session without calling external libraries
-this is probably crappy code. this was part of a project for me to get back into PERL after a long hiatus. i wanted to show the HDD status of my Dell server (see file output.jpg)
+This file is a set of functions to draw boxes around data (and color them) in a linux/vt100 type terminal session without calling external libraries.
+This is probably crappy code. This was part of a project for me to get back into PERL after a long hiatus. I wanted to show the HDD status of my Dell server (see file output.jpg)
 
 ## usage:
 
