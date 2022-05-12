@@ -8,7 +8,7 @@ This is probably crappy code. This was part of a project for me to get back into
 
 **NOTE: run this script with the commandline parameter of "auto" to see the test array data**
 
-## usage:
+## (normal, as in not using test data) usage:
 
 >$0 <width><height><ROWSxCOLS>
 >(i.e.: $0 20 10 3x5)
