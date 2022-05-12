@@ -10,14 +10,14 @@ This is probably crappy code. This was part of a project for me to get back into
 
 ## (normal, as in not using test data) usage:
 
->$0 <width><height><ROWSxCOLS>
+>$0 [width] [height] [ROWSxCOLS]
 >(i.e.: $0 20 10 3x5)
 >
 >       OR
 >
 >  ## $0 auto
 >
->  $0 <no input argument> -> will output a single max size box to the terminal
+>  $0 (no input argument) -> will output a single max size box to the terminal
 
 
  Script is currently built to use test array (@testarr) for data
