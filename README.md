@@ -6,6 +6,8 @@ libraries have their place, but sometimes you just want to code and go.
 This file is a set of functions to draw boxes around data (and color them) in a linux/vt100 type terminal session without calling external libraries.
 This is probably crappy code. This was part of a project for me to get back into PERL after a long hiatus. I wanted to show the HDD status of my Dell server (see file output.jpg)
 
+**NOTE: run this script with the commandline parameter of "auto" to see the test array data**
+
 ## usage:
 
 >$0 <width><height><ROWSxCOLS>
@@ -13,7 +15,7 @@ This is probably crappy code. This was part of a project for me to get back into
 >
 >       OR
 >
->   $0 auto
+>  ## $0 auto
 >
 >  $0 <no input argument> -> will output a single max size box to the terminal
 
