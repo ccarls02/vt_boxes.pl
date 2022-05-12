@@ -15,7 +15,7 @@ This is probably crappy code. This was part of a project for me to get back into
 >
 >       OR
 >
->  ## $0 auto
+>  ## $0 auto -> will print data sizing boxes by max number of lines and max characters per line
 >
 >  $0 (no input argument) -> will output a single max size box to the terminal
 
